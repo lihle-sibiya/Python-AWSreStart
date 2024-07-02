@@ -97,3 +97,10 @@ print(myFavoriteFruitDictionary["Paulo"])
 
 print("# # # # # # # #       #     #    #")
 # mixed-type list
+myMixedTypeList = [45, 290578, 1.02, True, "My dog is on the bed.", "45"]
+
+#for loop statement to traverse the list
+for item in myMixedTypeList:
+    print("{} is of the data type {}".format(item,type(item)))
+    
+    
