@@ -78,3 +78,22 @@ print(myFinalAnswerTuple[2])
 
 print("# # # # # # # #       #     #    #")
 # Dictionary
+
+myFavoriteFruitDictionary = {
+  "Akua" : "apple",
+  "Saanvi" : "banana",
+  "Paulo" : "pineapple"
+}
+print(myFavoriteFruitDictionary)
+print(type(myFavoriteFruitDictionary))
+
+#access Akua's favorite fruit
+print(myFavoriteFruitDictionary["Akua"])
+#access Saanvi's favorite fruit
+print(myFavoriteFruitDictionary["Saanvi"])
+#access Paulo's favorite fruit
+print(myFavoriteFruitDictionary["Paulo"])
+
+
+print("# # # # # # # #       #     #    #")
+# mixed-type list
