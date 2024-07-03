@@ -9,6 +9,9 @@ with open('preproinsulin-seq.txt', 'r') as file:
 # Use regex to clean the content
 cleaned_content = re.sub(r'[^a-zA-Z]', '', content)
 
+# Verify and trim the sequence to 110 characters if needed
+cleaned_content = cleaned_content[:110]
+
 # Write the cleaned content to a new file
 with open('cleaned_preproinsulin-seq.txt', 'w') as file:
     file.write(cleaned_content)
